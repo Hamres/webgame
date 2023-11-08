@@ -1,0 +1,164 @@
+body {
+  color: white;
+}
+
+.wrapper {
+  height: 500px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.titleContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.gameTitleContainer {
+
+}
+
+.buttonHome {
+  position: absolute;
+  left: -80px;
+}
+
+.thisButton {
+  background-color: #3b3b3b;
+  color: #151515;
+  cursor: pointer;
+  font-size: 35px;
+  border: 1px solid #151515;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition:  0.4s ease-out;
+}
+
+.thisButton:hover {
+  height: 60px;
+  width: 60px;
+}
+
+.title {
+  font-size: 60px;
+}
+
+.about {
+  margin: 20px 0;
+  font-size: 24px;
+  font-weight: bold;
+  max-width: 800px;
+}
+
+.description {
+  display: inline-block;
+  height: auto;
+  overflow: hidden;
+  font-size: 16px;
+  max-width: 700px;
+  white-space: pre-wrap;
+}
+
+.website {
+  padding-top: 10px;
+}
+
+.screenshots {
+  padding-top: 10px;
+}
+
+.readMore {
+  font-size: 12px;
+
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.gameMeta {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.rating {
+  width: 350px;
+  height: 50px;
+}
+
+.gameMetaRating {
+  margin-top: 5px;
+  height: 25px;
+  width: 32px;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid #6dc849;
+  border-radius: 5px;
+}
+
+.releaseDate {
+  width: 350px;
+  height: 50px;
+}
+
+.gameMetaRelease {
+  padding-top: 5px;
+}
+
+.website {
+  width: 700px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.gameMetaWebsite {
+  cursor: pointer;
+  text-decoration: underline;
+  color: white;
+  transition: 0.2s ease-in-out;
+  font-size: 17px;
+}
+
+.gameMetaWebsite:hover {
+  color: #aaaaaa;
+}
+
+.gameMetaTitle {
+  font-size: 14px;
+  color: #968f7a;
+
+}
+
+.screenshots {
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.screen{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.screen1{
+  background-color: blue;
+}
+
+.screen2{
+  background-color: orange;
+}
+
+.screen3{
+  background-color: green;
+}
