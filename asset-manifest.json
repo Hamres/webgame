@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/webgame/static/css/main.23612448.css",
+    "main.js": "/webgame/static/js/main.20e15f57.js",
+    "index.html": "/webgame/index.html",
+    "main.23612448.css.map": "/webgame/static/css/main.23612448.css.map",
+    "main.20e15f57.js.map": "/webgame/static/js/main.20e15f57.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23612448.css",
+    "static/js/main.20e15f57.js"
+  ]
+}
