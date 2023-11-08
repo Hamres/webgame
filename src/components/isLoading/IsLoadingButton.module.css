@@ -1,0 +1,16 @@
+.loaderButton {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px dashed white;
+  animation: rotate 2s infinite ease-out;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

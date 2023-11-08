@@ -1,0 +1,42 @@
+.mainContainer {
+  height: 270px;
+  width: 480px;
+
+  display: flex;
+  align-items: center;
+}
+
+.window {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.allItemsContainer {
+  height: 100%;
+  display: flex;
+
+  transition: translate;
+  transition-property: transform;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .mainContainer {
+    height: 155px;
+    width: 280px;
+  }
+}
+
+@media (max-width: 375px) {
+  .mainContainer {
+    height: 115px;
+    width: 230px;
+    margin-bottom: 10px;
+  }
+}

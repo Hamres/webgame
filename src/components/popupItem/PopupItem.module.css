@@ -1,0 +1,35 @@
+.popupItem {
+  display: flex;
+  height: 50px;
+  max-width: 1600px;
+  margin-top: 5px;
+}
+
+.popupImageContainer {
+  height: 100%;
+  width: 40px;
+}
+
+.popupImage {
+  object-fit: cover;
+  height: 50px;
+  width: 40px;
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+}
+
+.popupImage:hover {
+  opacity: 0.5;
+}
+
+.popupName {
+  margin-left: 5px;
+  height: 50px;
+  max-width: 100%;
+  transition: 0.2s ease-in-out;
+  padding-top: 15px;
+}
+
+.spanPopup:hover {
+  opacity: 0.5;
+}

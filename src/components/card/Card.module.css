@@ -1,0 +1,100 @@
+.cardContainer {
+  background-color: #151515;
+  max-width: 1600px;
+  margin: auto;
+  padding-top: 25px;
+}
+
+.mainCard {
+  color: white;
+  max-width: 380px;
+  height: 380px;
+  border: 1px solid #202020;
+  border-radius: 15px;
+  margin-left: 15px;
+  padding-bottom: 15px;
+  transition: 0.2s ease-in-out;
+}
+
+.mainCard:hover {
+  transform: scale(1.02);
+}
+
+.cardImg {
+  height: 215px;
+  width: 380px;
+}
+
+.poster {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+
+}
+
+.cardDesc {
+  height: 182px;
+  width: 380px;
+  display: inline-block;
+  background: #202020;
+  border-radius: 0 0 15px 15px;
+}
+
+.name {
+  height: 58px;
+  width: 350px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 10px;
+  transition: 0.15s ease-in-out;
+}
+
+.nameSpan:hover {
+  color: #aaaaaa;
+}
+
+.rating {
+  height: 25px;
+  width: 32px;
+  font-size: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: 10px;
+  border: 1px solid #6dc849;
+  border-radius: 5px;
+}
+
+.releaseDate {
+  height: 20px;
+  width: 110px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+@media (max-width: 375px) {
+  .mainCard {
+    width: 200px;
+    height: 380px;
+    margin-right: 77px;
+  }
+  .cardImg {
+    height: 215px;
+    width: 330px;
+  }
+  .cardDesc {
+    height: 182px;
+    width: 330px;
+    display: inline-block;
+    background: #202020;
+    border-radius: 0 0 15px 15px;
+  }
+  .name {
+    height: 58px;
+    width: 330px;
+  }
+}
+
+

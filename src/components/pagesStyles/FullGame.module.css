@@ -20,10 +20,6 @@ body {
   align-items: center;
 }
 
-.gameTitleContainer {
-
-}
-
 .buttonHome {
   position: absolute;
   left: -80px;
@@ -136,7 +132,6 @@ body {
 .gameMetaTitle {
   font-size: 14px;
   color: #968f7a;
-
 }
 
 .screenshots {
@@ -151,14 +146,55 @@ body {
   user-select: none;
 }
 
-.screen1{
-  background-color: blue;
+@media (max-width: 992px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 70px;
+  }
 }
 
-.screen2{
-  background-color: orange;
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    padding-top: 70px;
+  }
 }
 
-.screen3{
-  background-color: green;
+@media (max-width: 480px) {
+  .title {
+    font-size: 30px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    margin: auto;
+    padding-top: 70px;
+  }
 }
+
+@media (max-width: 375px) {
+  .title {
+    font-size: 30px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    margin: auto;
+    padding-top: 70px;
+  }
+  .website {
+    width: 700px;
+    height: 20px;
+    margin: 0 auto;
+  }
+}
+
+

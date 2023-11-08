@@ -1,0 +1,44 @@
+.sortSelect {
+  border: 1px solid #3b3b3b;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 10px;
+  background: #3b3b3b;
+  color: #fff;
+  margin-right: 10px;
+  margin-left: 5px;
+  font-size: 15px;
+  transition: 0.3s ease-in-out;
+}
+
+.sortSelect:hover {
+  color: #4d6777;
+  cursor: pointer;
+}
+
+.sortSelect:focus {
+  color: #fff;
+  transition: none;
+  border: none;
+}
+
+.platformSelect {
+  height: 30px;
+  border: 1px solid #3b3b3b;
+  border-radius: 5px;
+  padding-left: 10px;
+  background: #3b3b3b;
+  color: #fff;
+  font-size: 15px;
+  transition: 0.3s ease-in-out;
+}
+
+.platformSelect:hover {
+  color: #4d6777;
+  cursor: pointer;
+}
+
+.platformSelect:focus {
+  color: #fff;
+  transition: none;
+}

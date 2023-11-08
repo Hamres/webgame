@@ -1,20 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .wrapper {
-  /*background-image: url("https://rozetked.me/images/uploads/F8He7Re8tNJD.jpg");*/
-  background-color: #6dc849;
+  background-image: url("https://rozetked.me/images/uploads/F8He7Re8tNJD.jpg");
+  background-size: cover;
+  height: 100vh;
 }
 
 .errorContainer {
   max-width: 1600px;
-  background-color: #6dc849;
+  margin-left: auto;
+}
+
+.mainError {
+  justify-content: center;
+  text-align: left;
 }
 
 .error404 {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 100px;
 }
 
 .errorText {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 25px;
   color: white;
+}
+
+.errorButton {
+  padding-top: 25px;
+  width: 300px;
+  height: 50px;
+  padding: 0 20px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 0;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+
+}
+
+.errorButton:hover {
+  background-color: #d7d7d8;
 }
