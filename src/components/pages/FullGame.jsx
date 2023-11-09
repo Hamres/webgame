@@ -57,7 +57,7 @@ const FullGame = () => {
       <div className={style.container}>
         <div className={style.titleContainer}>
           <div className={style.buttonHome}>
-            <Link to={'/'}>
+            <Link to='/'>
               <button className={style.thisButton}>
                 &#8678;
               </button>

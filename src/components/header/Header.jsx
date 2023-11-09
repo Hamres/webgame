@@ -32,7 +32,7 @@ const Header = ({setSearchValue, searchGame, isLoadingPopup, setOpen, open}) => 
 
   return (
     <div className={style.mainHeader}>
-      <Link to={'/'} style={{textDecoration: 'none'}}>
+      <Link to='/' style={{textDecoration: 'none'}}>
         <div className={style.games}>
           <span>Games</span>
         </div>
@@ -45,8 +45,8 @@ const Header = ({setSearchValue, searchGame, isLoadingPopup, setOpen, open}) => 
           type="text"
           placeholder='Search the game'
         />
-        <img className={style.searchIcons} src='./search.png' alt="search"/>
-        {value && <img onClick={onClickClear} className={style.closeIcons} src='./close.png' alt="close"/>}
+        <img className={style.searchIcons} src='img/search.png' alt='search'/>
+        {value && <img onClick={onClickClear} className={style.closeIcons} src='img/close.png' alt='close'/>}
 
         {
           open &&
